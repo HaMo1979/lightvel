@@ -1,0 +1,421 @@
+@charset "utf-8";
+
+body {
+	line-height: 1;
+	margin: 0;
+	padding: 0;
+	min-width: 860px;
+	font-family: 'Ubuntu', sans-serif;
+
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+
+
+/*----TOP LINE-----*/
+
+.top{
+	height: 30px;
+	background: linear-gradient(to top, rgba(0,0,0,1), rgba(50,50,50,1));
+	border-bottom: 1px solid #ccc;
+	
+}
+
+.top p{
+	float: right;
+	margin-top: 5px;
+	margin-right: 15px;
+	color: #4BABF9;
+	cursor: pointer;
+	margin-bottom: -5px;
+	font-family: 'Ubuntu', sans-serif;
+}
+.top p:hover{
+	color: #fff;
+}
+.top p img{
+	margin-bottom: 3px;
+	height: 15px;
+}
+
+#loginWindow{
+	width: 300px;
+	height: 200px;
+	background: rgba(0,0,0,0.6);
+	position: absolute;
+	z-index: 100;
+	right: 120px;
+	border-radius: 5px;
+	border: 1px solid #fff;
+	padding: 25px;
+	display: none;
+
+}
+
+#loginWindow input{
+	width: 100%;
+	margin-bottom: 10px;
+	outline: none;
+}
+
+#loginWindow button{
+	float: right;
+	width: 80px;
+	margin-top: 5px;
+	outline: none;
+}
+
+#loginWindow a{
+	margin-top: 5px;
+	display: inline-block;
+	font-size: 15px;
+	color: #92B8D7;
+	font-family: 'Ubuntu', sans-serif;
+}
+
+#loginWindow a:hover{
+	color: #fff;
+	text-decoration: none;
+}
+
+#loginWindow label{
+	color: #ccc;
+}
+/*----HEADER---------*/
+
+.title_line{
+	width: 100%;
+	height: 60px;
+	background: linear-gradient(to top, rgba(47,175,255,0.4), rgba(60,147,203,1));	
+	border-bottom: 1px solid #aaa;
+
+}
+.title_image{
+		position: absolute;
+		left: 50px;
+		top: 3px;
+}
+
+
+.phone_numbers{
+	width: 310px;
+	height: 40px;
+	float: right;
+	margin-top: 10px;
+	font-size: 18px;
+	font-weight: bold;
+	color: #fff;
+	font-family: 'Ubuntu', sans-serif;
+	background: #686868;
+	padding: 8px 10px 15px 35px;
+	border-top: 1px solid #ccc;
+}
+
+.phone_logo{
+	float: right;
+	margin-top: 7px;
+	margin-right: -43px;
+}
+
+#header{
+	margin-top: 1px;
+	width: 100%;
+	height: 420px;
+}
+
+
+.accordion{
+	border-bottom: 1px solid #fff;
+  	
+
+}
+.underline{
+	height: 5px;
+	background: rgba(60,147,203,1);
+}
+
+
+/*----CONTENT------*/
+
+.navi_panel{
+	height: 130px;
+	
+	
+	margin: 15px;
+	padding: 25px 0px 5px 0px;
+	
+
+}
+
+.content{
+	min-height: 100%;
+	padding-bottom: 90px;
+	background-image: url(../images/b.jpg);
+	font-family: 'Ubuntu', sans-serif;
+}
+
+
+.menu_items{
+	height: 135px;
+	width: 130px;
+	background: rgba(104,104,104,0.15);
+	display: inline-block;
+	float: left;
+	margin-right: 20px;
+	opacity: 1;
+	text-align: center;
+	margin-bottom: 23px;
+
+}
+.menu_items:hover{
+	outline: 2px solid #fff;
+	box-sizing: border-box; 
+	cursor: pointer;
+	background: rgba(104,104,104,0.25);
+}
+
+.menu_items:nth-child(2){
+	padding-top: 20px;
+}
+.menu_items:nth-child(3){
+	padding-top: 5px;
+}
+.menu_items:nth-child(3) img{
+	margin-bottom: -5px;
+}
+.menu_items:nth-child(5){
+	padding-top: 5px;
+}
+.menu_items:nth-child(5) img{
+	margin-bottom: -5px;
+}
+
+.bucket{
+	height: 100px;
+	background: rgba(0,0,0,0.7);
+	margin-left: 10px;
+	margin-top: 20px;
+	padding: 20px 0px 0px 30px;
+	position: relative;
+	border-radius: 2px;
+
+}
+.bucket:hover{
+	background: rgba(0,0,0,0.8);
+	cursor: pointer;
+	
+
+}
+.bucket span{
+	font-size: 2em;
+	color: #FFDD00;
+	
+}
+
+.bucket span img{
+	margin: 0 0 5px 10px;
+}
+
+
+#bucket_count{
+	font-size: 14px;
+	color: #ccc;
+	margin-top: -15px;
+}
+
+.separator{
+	height: 4px;
+	background: #fff;
+	border-bottom: 2px solid #ddd;
+	margin: 0 10px 10px 10px;
+}
+
+.items{
+	padding: 10px 5px;
+	border: 1px solid #ccc;
+	margin-top: 20px;
+	text-align: center;
+	background: #EAEAEA;
+	border-radius: 4px;
+	
+}
+
+.itens a{
+	width: 100%;
+	height: 100%;
+}
+.items a:hover{
+	text-decoration: none;
+}
+
+.items:hover{
+	background: #EDEDED;
+	border: 1px solid #A9A9A9;
+	box-shadow: 3px 3px 12px -3px #000;
+}
+
+/*----CATEGORY------*/
+.category_list{
+	margin-top: 20px;
+	margin-bottom: 20px;
+	border-radius: 10px;
+	margin-left: -40px;
+	margin-right: 10px;
+	
+}
+.category_list ul li:first-child{
+	background: linear-gradient(to top, rgba(50,50,50,1), rgba(105,105,105,1));
+	color: #fff;
+	font-size: 2em;
+	border-bottom: 1px solid #fff;
+	padding: 2px 30px;
+	border-radius: 5px 5px 0 0;
+	
+}
+.category_list li:last-child{
+	background: linear-gradient(to top, rgba(50,50,50,1), rgba(105,105,105,1));
+	height: 20px;
+	border-radius: 0 0 5px 5px;
+}
+
+.category_list a{
+	font-size: 1.3em;
+	text-decoration: none;
+	background: linear-gradient(to top, rgba(204,204,204,1), rgba(220,220,220,1));
+	display: block;
+	border-bottom: 1px solid #fff;
+	padding: 10px 10px 10px 30px;
+	color: #2C689D;
+	
+}
+
+.category_list a:hover{
+	text-decoration: none;
+	background: linear-gradient(to top, rgba(140,140,140,1), rgba(180,180,180,1));
+	color: #fff;
+	
+}
+
+
+
+
+
+/*----FOOTER------*/
+
+#footer{
+	height: 30px;
+	background: linear-gradient(to top, rgba(0,0,0,1), rgba(50,50,50,1));
+	border-top: 1px solid #999;
+	text-align: center;
+	color: #fff;
+	padding-top: 4px; 
+	font-size: 1em;
+	margin-top: 5%;
+	position: fixed;
+	bottom: -30px;
+	width: 100%;
+	font-family: 'Ubuntu', sans-serif;
+}
+
+
+
+/*----- Кнопка вверх ----*/
+
+#back-top a{
+	display: block;
+	z-index: 98;
+	position: fixed;
+	bottom: 40px;
+	right: 20px;
+	
+	/*transition*/
+	-webkit-transition: 0.5s;
+	-moz-transition: 0.5s;
+	transition: 0.5s;
+}
+
+
+.button-top-background{
+	padding: 12px 8px;
+	width: 60px;
+	height: 60px;
+	background: rgba(53,53,53,0.5);
+	border-radius: 2px;
+	-webkit-transition: 0.3s;
+	-moz-transition: 0.3s;
+	transition: 0.3s;
+}
+
+
+
+.button-top-arrow{
+	width: 0;
+	height: 0;
+	border-left: 22px solid transparent;
+	border-right: 22px solid transparent;
+	border-bottom: 30px solid #fff;
+	//margin: 15px 0 0 12px;
+	
+}
+
+.button-top-background:hover{
+	background: rgba(53,53,53,0.9);
+	-webkit-transition: 0.3s;
+	-moz-transition: 0.3s;
+	transition: 0.3s;
+}
+
+#overlay{
+	width: 100%;
+	height: 100%;
+	background: #000 repeat;
+	opacity: 0.7;
+	z-index: 99;
+	position: fixed;
+	cursor: pointer;
+	display: none;
+}
+
+#regWindow{
+	min-width: 500px;
+	display: none;
+	background: #ddd;
+	position: fixed;
+	left: 50%;
+	margin-left: -250px;
+	margin-top: 5%;
+	z-index: 100;
+	padding: 20px;
+	border: 1px solid #fff;
+}
+
+#regWindow img{
+	width: 200px;
+	height: 200px;
+	float: right;
+}
+
+#regWindow input{
+	width: 220px;
+	margin-bottom: 3px;
+}
+
+#regSendButton{
+	margin-top: 15px;
+}
+
+

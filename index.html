@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>LightVel - green techology's</title>
+    <link rel="icon" type="image/ico" href="/favicon.ico"/>
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<link rel="stylesheet" type="text/css" href="css/raccordion.css" />
+	<link rel="stylesheet" type="text/css" href="css/bootstrap.css">
+	<script type="text/javascript" src="js/jquery.min.js"></script>
+	<script type="text/javascript" src="js/script.js"></script>
+	<link href="http://www.jqueryscript.net/css/jquerysctipttop.css" rel="stylesheet" type="text/css">
+	<link rel="stylesheet" href="css/slider.css">
+	<link href='http://fonts.googleapis.com/css?family=Ubuntu&subset=latin,cyrillic-ext,cyrillic' rel='stylesheet' type='text/css'>
+</head>
+<body>
+	<div id="overlay"></div>
+	<div id="top"></div><!-- ДЛЯ КНОПКИ ПРОКРУТКИ СТРАНИЦЫ -->
+	
+	
+	<div class="container-fluid">
+
+
+<!-- ------------------ top -------------------- -->
+		<div class="row">
+			<div class="top"><p id="regButton"><img src="images/User-24.png"> Регистрация</p> <p id="loginButton"><img src="images/Login-Door-24.png">Вход</p>
+			</div>
+			<div class="title_line">
+				<div class="title_image"><img src="images/main_title.png"></div>
+				<div class="phone_numbers"><p>(066)060-99-99, (093)322-93-93</p></div>
+				<div class="phone_logo"><img src="images/IPad.png"></div>
+			</div>	
+		</div>
+
+		<div id="loginWindow">
+			<form>
+				<label for="userName">Имя пользователя</label><br>
+				<input type="text" id="userName" placeholder="Введите имя пользователя"></input><br>
+				<label for="pass">Пароль</label><br>
+				<input type="password" id="pass" placeholder="Введите пароль"></input><br>
+				<a href="#">Забыли пароль?</a>
+				<button type="button" class="btn btn-success">Войти</button>
+			</form>
+		</div>
+
+		<div id="regWindow">
+			<h1>Регистрация</h1>
+			<img src="images/register.png">
+			<form>
+				<label for="regName">Ваше имя</label><br>
+				<input type="text" id="regName"></input><br>
+				<label for="regEmail">Электроння почта</label><br>
+				<input type="text" id="regEmail"></input><br>
+				<label for="regPass">Пароль</label><br>
+				<input type="password" id="regPass"></input><br>
+				<label for="confirmPass">Еще раз</label><br>
+				<input type="password" id="confirmPass"></input><br>
+				<button type="button" id="regSendButton" class="btn btn-success">Зарегистрироваться</button>
+
+			</form>
+		</div>
+
+<!-- ------------------ header -------------------- -->
+		<div id="header row">
+			
+			<div class="accordion row" id="zA7n">
+				<ul class="accordion__ul">
+					<li class="accordion__li"><img class="accordion__img" src="images/slide1.jpg" alt="Image Alt" /></li>
+					<li class="accordion__li"><img class="accordion__img" src="images/slide2.jpg" alt="Image Alt" /></li>
+        	        <li class="accordion__li"><img class="accordion__img" src="images/slide3.jpg" alt="Image Alt" /></li>
+        	        <li class="accordion__li"><img class="accordion__img" src="images/slide4.jpg" alt="Image Alt" /></li>
+        	        <li class="accordion__li"><img class="accordion__img" src="images/slide5.jpg" alt="Image Alt" /></li>
+       	        	<li class="accordion__li"><img class="accordion__img" src="images/slide6.jpg" alt="Image Alt" /></li>
+   				</ul>
+			</div>
+			<div class="underline row"></div>
+			 
+		</div> 
+
+		
+
+<!-- ------------------ content -------------------- -->
+		<div class="row content">
+			<div class="navi_panel">
+				<div class="col-lg-9 col-md-9 col-sm-8 col-xs-7 ">
+					<div class="menu_items"><img src="images/cat1.png">Solar Energy</div>
+					<div class="menu_items"><img src="images/cat2.jpg">Аккумуляторы</div>
+					<div class="menu_items"><img src="images/cat3.jpg">Моторы</div>
+					<div class="menu_items"><img src="images/cat4.png">Освещение</div>
+					<div class="menu_items"><img src="images/cat5.jpg">Аксессуары</div>
+				</div>
+
+				<div class="col-lg-3 col-md-3 col-sm-4 col-xs-5">
+					<div class="bucket" title="Нажмите что бы перейти к корзине"><span>Корзина<img src="images/Shopping-Cart.png"><div id="bucket_count">(пусто)</div></span></div>
+				</div>
+
+			</div>
+
+			<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12"><div class="separator"></div></div>
+
+			<div class="col-lg-9 col-md-9 col-sm-8 col-xs-7 ">
+				<div class="col-lg-3 col-md-4 col-sm-6 col-xs-6">
+					<div class="items"><a href="#"><img src="images/item1.png" width="100%" height="100%">Text</a></div>
+				</div>	
+			</div>
+
+<!-- ------------------ sidebar -------------------- -->
+			<div class=" col-lg-3 col-md-3 col-sm-4 col-xs-5 ">
+				<div class="category_list">
+					<ul>
+						<li class="category_button"><span>Меню</span></li>
+						<li class="category_button"><a href="#">Главная</a></li>
+						<li class="category_button"><a href="#">Все товары</a></li>
+						<li class="category_button"><a href="#">Контакты</a></li>
+						<li class="category_button"><a href="#">О магазине</a></li>
+						<li class="category_button"><a href="#">Доставка и оплата</a></li>
+						<li class="category_button"><a href="#">Гарантии</a></li>
+						<li class="category_button"></li>
+					</ul>
+				</div>
+
+			</div>
+		</div>
+
+		
+
+<!-- ------------------ footer -------------------- -->
+		<div class="row" id="footer">©2014-<span></span> lightvel.ua - green technology's. Все права защищены.</div>
+	</div>
+
+	<div id="back-top"><a href="#top"><div class="button-top-background"><div class="button-top-arrow"></div></div></a> </div> <!-- КНОПКА ПРОКРУТКИ СТРАНИЦЫ -->
+
+
+		<script src="http://code.jquery.com/jquery-1.11.3.min.js"></script>
+	<script src="js/limit.js"></script>
+	<script src="js/zA7n.js"></script>
+	<script>
+		$(window).load(function () {
+			$('#zA7n').zA7n({});
+		});
+	</script>
+</body>
+</html>
